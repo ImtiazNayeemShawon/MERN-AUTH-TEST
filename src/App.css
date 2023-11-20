@@ -1,0 +1,70 @@
+#root{
+  margin: auto;
+  margin-top: 60px;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  margin: auto;
+  display: block;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.form input{
+  border: 0;
+  padding-inline: 10px;
+  padding-block: 10px;
+  border-radius: 2px;
+  width: 400px;
+}
+.login{
+  text-align: center;
+}
+.loginbtn{
+  background-color: rgb(7, 129, 195);
+  outline: none;
+  border: none;
+}
+.logoutbtn{
+  margin: auto;
+  display: block;
+  padding-inline: 40px;
+}
+.dashboard{
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
