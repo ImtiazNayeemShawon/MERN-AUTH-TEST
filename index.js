@@ -9,7 +9,7 @@ const app = express();
 app.use(cookieParser());
 app.use(express.json());
 
-app.use(cors({ credentials: true, origin: "https://loquacious-dodol-b798c5.netlify.app/" }));
+app.use(cors({ credentials: true, origin: "https://loquacious-dodol-b798c5.netlify.app" }));
 
 app.post("/login", async (req, res) => {
   try {
